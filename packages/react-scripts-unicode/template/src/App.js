@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Unicode from './Unicode';
 
 class App extends Component {
   render() {
@@ -12,9 +11,8 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          I edited it to contain Unicode elements. How about that?
         </p>
-        <Unicode />
       </div>
     );
   }
